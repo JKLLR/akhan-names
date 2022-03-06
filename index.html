@@ -5,29 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan-name-generator</title>
+    <link rel="stylesheet" href="./css/style.css">
     
 </head>
 <body>
-    <div class="description"></div>
-      
-       <h1>AKAN NAME GENERATOR</h1>
-       <p>this site will take your birthday date, calculate the day of the week you were born and depending on your gender(male/female) it outputs your Akan name(Akan-The first name given to children in Ghanian culture according to the day of the week they were born.) </p>
-   </div> 
-   <div class="form">
-      <form action="/action_page.php">
-         <label for="Day">Day:</label>
-         <input type="text" id="day" name="day"><br><br>
-         <label for="Month">Month:</label>
-         <input type="text" id="month" name="month"><br><br>
-         <label for="year">Year:</label>
-         <input type="text" id="year" name="year"><br></br>
-         <input type="button" id="submit" onclick="submitDeets()" value="Submit">
-      </form>
-   </div>
-   <div class="input">
-       <label for="akan">Your akan name is:</label>
-        <input type="text" id="akan" name="akan"><br></br>
-   </div>
-   <script src="./js/script.js"></script>
+    <div class="cover">
+       <div class="description">
+          <h1>AKAN NAME GENERATOR</h1>
+          <p>this site will take your birthday date, calculate the day of the week you were born and depending on your gender(male/female) it outputs your Akan name(Akan-The first name given to children in Ghanian culture according to the day of the week they were born.) </p>
+       </div> 
+       <div class="form">
+          <form action="/action_page.php">
+              <label for="Day">Date of birth</label>
+              <input type="date" id="birthday" name="birthday">
+              <select id="gender">
+              <option name="male">male</option>
+              <option name="Female">Female</option>
+              </select>
+              <input type="button" id="submit" onclick="submitDeets()" value="Submit">
+          </form>
+      </div>
+      <div class="input">
+          <label id="outPut" for="akan">Your akan name is:</label>
+       </div>
+       <script src="./js/script.js"></script>
+    </div>    
 </body>
 </html>
