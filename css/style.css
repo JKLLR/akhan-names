@@ -25,7 +25,7 @@
     color: aliceblue;
     display: flex;
     justify-content:center;
-    padding: 10vh;
+    padding: 7vh;
 }
 th {
     color:aqua;
@@ -42,5 +42,9 @@ th {
     border:2px solid cyan;
     padding: 2vh 5vw;
     font-size: 14px;
+  }
+  a:hover{
+    color: aqua;
+    font-size: 22px;  
   }
 
