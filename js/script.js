@@ -1,6 +1,9 @@
-var day = document.getElementsByName("day")[0]
-var month = document.getElementById("month");
-var year = document.getElementById("year");
+var birthday = document.getElementById("birthday");
 var output = document.getElementById("outPut")
 var sel = document.getElementById('gender');
 var submitButton = document.getElementById("submit");
+
+var submitDates = ()=> {
+// check if date is selected
+     
+}
