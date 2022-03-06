@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan-name-generator</title>
-    <script defer src="./js/script.js"></script>
+    
 </head>
 <body>
     <div class="description"></div>
@@ -16,17 +16,18 @@
    <div class="form">
       <form action="/action_page.php">
          <label for="Day">Day:</label>
-         <input type="text" id="Day" name="Day"><br><br>
+         <input type="text" id="day" name="day"><br><br>
          <label for="Month">Month:</label>
-         <input type="text" id="Month" name="Month"><br><br>
+         <input type="text" id="month" name="month"><br><br>
          <label for="year">Year:</label>
          <input type="text" id="year" name="year"><br></br>
-         <input type="submit" value="Submit">
+         <input type="button" id="submit" onclick="submitDeets()" value="Submit">
       </form>
    </div>
    <div class="input">
        <label for="akan">Your akan name is:</label>
         <input type="text" id="akan" name="akan"><br></br>
    </div>
+   <script src="./js/script.js"></script>
 </body>
 </html>
