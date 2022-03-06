@@ -7,4 +7,6 @@ var submitDates = ()=> {
 // check if date is selected
      if(!birthday.value){
          alert("You need to enter a date!")
-}
+  }
+var userDob = new Date(birthday.value);
+
