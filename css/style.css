@@ -4,8 +4,7 @@
     font-family: "Lexend Deca", sans-serif;
 }
 .cover{
-    background-image: url("./image/galaxy1.jpg");
-    background-size: cover;
+    background-image: url("/image/galaxy1.JPG");background-size: cover;
     background-position: center;
     filter: brightness(100%);
     height: 100vh;
