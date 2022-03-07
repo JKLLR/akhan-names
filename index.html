@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan-name-generator</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&display=swap"
-    rel="stylesheet">
-
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="cover">
-       <div class="description">
-          <h1>AKAN NAME GENERATOR</h1>
-          <p>This site will take your birth date, calculate the day of the week you were born and depending on your gender (male/female) it outputs your Akan name: ( The first name given to children in Ghanian culture according to the day of the week they were born.) For more information kindly <a href="https://en.wikipedia.org/wiki/Akan_names">Click here</a> </p>
-       </div> 
-       <div class="row" id="table">
+      <div class="description">
+        <h1>AKAN NAME GENERATOR</h1>
+        <p>
+          This site will take your birth date, calculate the day of the week you
+          were born and depending on your gender (male/female) it outputs your
+          Akan name: ( The first name given to children in Ghanian culture
+          according to the day of the week they were born.) For more information
+          kindly
+          <a href="https://en.wikipedia.org/wiki/Akan_names">Click here</a>
+        </p>
+      </div>
+      <div class="row" id="table">
         <table>
           <tr>
             <th>Day</th>
@@ -62,21 +70,26 @@
           </tr>
         </table>
       </div>
-       <div class="form">
-          <form action="/action_page.php">
-              <label for="Day">Date of birth</label>
-              <input type="date" id="birthday" name="birthday">
-              <select id="gender">
-              <option name="male">Male</option>
-              <option name="Female">Female</option>
-              </select>
-              <input type="button" id="submit" onclick="submitDates()" value="Submit">
-          </form>
+      <div class="form">
+        <form action="/action_page.php">
+          <label for="Day">Date of birth</label>
+          <input type="date" id="birthday" name="birthday" />
+          <select id="gender">
+            <option name="male">Male</option>
+            <option name="Female">Female</option>
+          </select>
+          <input
+            type="button"
+            id="submit"
+            onclick="submitDates()"
+            value="Submit"
+          />
+        </form>
       </div>
       <div class="input">
-          <label id="outPut" for="akan">Your akan name is:</label>
-       </div>
-       <script src="./js/script.js"></script>
-    </div>    
-</body>
+        <label id="outPut" for="akan">Your akan name is:</label>
+      </div>
+      <script src="./js/script.js"></script>
+    </div>
+  </body>
 </html>
