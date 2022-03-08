@@ -71,18 +71,13 @@
       </div>
       <div class="form">
         <form action="/action_page.php">
-          <label for="Day">Date of birth</label>
-          <input type="date" id="birthday" name="birthday" />
-          <select id="gender">
-            <option name="male">Male</option>
-            <option name="Female">Female</option>
+          <input type="date" id="birthday" required>
+          <select name="gender" id="gender" required>
+            <option value="">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select>
-          <input
-            type="button"
-            id="submit"
-            onclick="submitDates()"
-            value="Submit"
-          />
+          <input type="button" id="submit" value="Submit">
         </form>
       </div>
       <div class="input">
