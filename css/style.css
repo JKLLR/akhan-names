@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
+
 *{
     margin: 0%;
     padding: 0%;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "stick", sans-serif;
 }
 .cover{
     background-image: url("../image/galaxy1.JPG");background-size: cover;
